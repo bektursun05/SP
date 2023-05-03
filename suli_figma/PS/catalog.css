@@ -1,0 +1,181 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.FourLink {
+    color: #400000 !important;
+    text-decoration: none
+}
+
+.Header {
+    background: #1B1919;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Logo {
+    width: 10%;
+    height: 60%;
+    margin-top: 1%;
+}
+
+.Searcher {
+    border-radius: 20px;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+    background: #FFFFFF;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search {
+    margin-top: 1.5%;
+    width: 90%;
+    height: 50%;
+    all: unset;
+}
+
+.searchButton {
+    padding-top: 1%;
+    padding-left: 50%;
+}
+
+.Medium {
+    height: 190px;
+}
+
+.Menu {
+    margin-top: 3%;
+    text-transform: uppercase;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.Center{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Jphotos{ 
+    display: flex;
+    flex-direction: column;
+    margin-top: -5%;
+}
+.Structure{
+    flex: 1 1 auto;
+    margin-top: 10%;
+}
+.Navigator{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+.GreenSet{
+    color: #08B61A !important;
+    text-decoration: none;
+}
+.GrayShrift{
+    color: #807C7C;
+}
+.Footer {
+    background-color: #242323;
+    margin-top: 20%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 20px;
+}
+
+.FooterShr {
+    padding-top: 10%;
+    color: #9D9D9D !important;
+    text-decoration: none
+}
+
+.headlines {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ContentsFooter {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Con1 {
+    padding-left: 3.6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Con2 {
+    padding-left: 0.2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Con3 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.1%;
+}
+
+.Line {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.LastElements {
+    padding-top: 5%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.TempoKg {
+    color: #9D9D9D;
+    padding-left: 20%;
+}
+
+.Emblems {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20%;
+    padding-left: 50%;
+
+}
+
+#Emblem1 {
+    padding-right: 10%;
+}
+
+#Emblem2 {
+    padding-right: 10%;
+}
+
+#Emblem3 {
+    padding-right: 10%;
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        width: 768px;
+        background-color: #807C7C;
+    }
+    .Header {
+        max-width: 768px;
+        background: #1B1919;
+        padding-top: 1%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    
+}
